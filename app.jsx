@@ -3,6 +3,7 @@ import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
 import Filters from "./components/Filters";
 import "./task.css";
+
 const App = () => {
   const [tasks, setTasks] = useState([]);
   const [editTask, setEditTask] = useState(null);
