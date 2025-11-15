@@ -6,7 +6,6 @@ const TaskCard = ({ task, onEdit, onDelete, onToggle }) => {
     medium: "orange",
     high: "red"
   };
-
   return (
     <div className="task-card">
       <h3>
