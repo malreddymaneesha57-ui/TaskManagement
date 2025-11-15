@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
 import Filters from "./components/Filters";
-import "./styles.css";
+import "./task.css";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
@@ -41,7 +41,7 @@ const App = () => {
   };
 
   const getFilteredTasks = () => {
-    let filtered = [...tasks];
+    let filtered = [tasks];
 
     if (filters.status !== "all") {
       filtered = filtered.filter((t) => t.status === filters.status);
@@ -60,7 +60,6 @@ const App = () => {
     if (filters.sort === "date") {
       filtered.sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
     }
-
     if (filters.sort === "priority") {
       const priorityOrder = { high: 3, medium: 2, low: 1 };
       filtered.sort((a, b) => priorityOrder[b.priority] - priorityOrder[a.priority]);
@@ -68,21 +67,16 @@ const App = () => {
 
     return filtered;
   };
-
   return (
     <div className="container">
       <h1>Task Manager</h1>
-
       <Filters filters={filters} setFilters={setFilters} />
-
       <TaskForm onSubmit={handleSubmit} editTask={editTask} />
-
       <TaskList
         tasks={getFilteredTasks()}
         onEdit={setEditTask}
         onDelete={handleDelete}
-        onToggle={toggleStatus}
-      />
+        onToggle={toggleStatus} />
     </div>
   );
 };
