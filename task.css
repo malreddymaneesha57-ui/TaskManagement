@@ -82,7 +82,7 @@ webkit-scrollbar-thumb:hover {
   border-radius: 20px;
   font-size: 12px;
 }
-.input {
+  .input {
   width: 100%;
   padding: 10px;
   border: 1px solid #d1d5db;
@@ -90,34 +90,33 @@ webkit-scrollbar-thumb:hover {
   outline: none;
   transition: 0.2s ease;
 }
-.input:focus {
+    .input:focus {
   border-color: #2563eb;
   box-shadow: 0px 0px 4px rgba(37, 99, 235, 0.3);
 }
-.error {
+ .error {
   color: #dc2626;
   font-size: 13px;
 }
-.status-badge {
+ .status-badge {
   padding: 5px 12px;
   border-radius: 20px;
   font-size: 12px;
   font-weight: 550;
 }
-.status-todo {
+  .status-todo {
   background: #e0f2fe;
   color: #0369a1;
 }
-.status-inprogress {
+  .status-inprogress {
   background: #ede9fe;
   color: #5b21b6;
 }
-
-.status-completed {
+   .status-completed {
   background: #dcfce7;
   color: #15803d;
 }
-.fade-in {
+   .fade-in {
   animation: fadeIn 0.3s ease-in-out;
 }
 @keyframes fadeIn {
