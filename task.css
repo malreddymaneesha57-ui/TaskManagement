@@ -16,17 +16,14 @@ body {
 ::-webkit-scrollbar {
   width: 8px;
 }
-
 ::-webkit-scrollbar-track {
   background: #e5e7eb;
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #9ca3af;
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: #6b7280;
 }
@@ -42,7 +39,6 @@ body {
   box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
   transition: all 0.2s ease-in-out;
 }
-
 .card:hover {
   transform: translateY(-2px);
   box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
@@ -58,7 +54,6 @@ body {
   background: #2563eb;
   color: white;
 }
-
 .btn-primary:hover {
   background: #1e40af;
 }
@@ -78,7 +73,6 @@ body {
   border-radius: 20px;
   font-size: 12px;
 }
-
 .priority-medium {
   background: #fef3c7;
   color: #b45309;
@@ -86,7 +80,6 @@ body {
   border-radius: 20px;
   font-size: 12px;
 }
-
 .priority-high {
   background: #fee2e2;
   color: #b91c1c;
@@ -102,7 +95,6 @@ body {
   outline: none;
   transition: 0.2s ease;
 }
-
 .input:focus {
   border-color: #2563eb;
   box-shadow: 0px 0px 4px rgba(37, 99, 235, 0.3);
@@ -117,12 +109,10 @@ body {
   font-size: 12px;
   font-weight: 550;
 }
-
 .status-todo {
   background: #e0f2fe;
   color: #0369a1;
 }
-
 .status-inprogress {
   background: #ede9fe;
   color: #5b21b6;
