@@ -63,7 +63,7 @@ webkit-scrollbar-thumb:hover {
 }
 .priority-low {
   background: #d1fae5;
-  color: #065f46;
+  color: #b45309;
   padding: 4px 10px;
   border-radius: 20px;
   font-size: 12px;
@@ -77,7 +77,7 @@ webkit-scrollbar-thumb:hover {
 }
 .priority-high {
   background: #fee2e2;
-  color: #b91c1c;
+  color: #b45309;
   padding: 4px 10px;
   border-radius: 20px;
   font-size: 12px;
@@ -90,7 +90,7 @@ webkit-scrollbar-thumb:hover {
   outline: none;
   transition: 0.2s ease;
 }
-    .input:focus {
+  .input:focus {
   border-color: #2563eb;
   box-shadow: 0px 0px 4px rgba(37, 99, 235, 0.3);
 }
@@ -104,19 +104,19 @@ webkit-scrollbar-thumb:hover {
   font-size: 12px;
   font-weight: 550;
 }
-  .status-todo {
+.status-todo {
   background: #e0f2fe;
   color: #0369a1;
 }
-  .status-inprogress {
+.status-inprogress {
   background: #ede9fe;
   color: #5b21b6;
 }
-   .status-completed {
+  .status-completed {
   background: #dcfce7;
   color: #15803d;
 }
-   .fade-in {
+  .fade-in {
   animation: fadeIn 0.3s ease-in-out;
 }
 @keyframes fadeIn {
